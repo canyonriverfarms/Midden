@@ -1,0 +1,58 @@
+﻿@page "/Map"
+
+<h3>Map</h3>
+<button @onclick="SetMarker">Set marker</button>
+<button @onclick="SetPoly">Set polygon</button>
+<div class="my-3">
+    <LeafletMap Map="PositionMap" TileLayer="OpenStreetMapsTileLayer" />
+</div>
+
+@code {
+    protected Darnton.Blazor.Leaflet.LeafletMap.Map PositionMap;
+    protected TileLayer OpenStreetMapsTileLayer;
+
+    protected override void OnInitialized()
+    {
+        var mapCentre = new LatLng(46.780523, -117.079884); // Centred on New Zealand
+
+        PositionMap = new Darnton.Blazor.Leaflet.LeafletMap.Map("testMap", new MapOptions
+        {
+            Center = mapCentre,
+            Zoom = 12
+        });
+
+        OpenStreetMapsTileLayer = new TileLayer(
+            "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            new TileLayerOptions
+            {
+                Attribution = @"Map data &copy; <a href=""https://www.openstreetmap.org/"">OpenStreetMap</a> contributors, " +
+                    @"<a href=""https://creativecommons.org/licenses/by-sa/2.0/"">CC-BY-SA</a>"
+            }
+        );
+    }
+
+    protected async void SetMarker()
+    {
+        var mapCenter = await PositionMap.GetCenter();
+        var marker = new Marker(mapCenter, new MarkerOptions());
+
+        await marker.AddTo(PositionMap);
+    }
+
+    protected async void SetPoly()
+    {
+        var mapCenter = await PositionMap.GetCenter();
+        var points = new List<LatLng>()
+        {
+            new LatLng(46.780523, -117.079884),
+            new LatLng(46.790523, -117.079884),
+            new LatLng(46.790523, -117.089884),
+            new LatLng(46.780523, -117.089884),
+            new LatLng(46.780523, -117.079884)
+        };
+
+        var poly = new Polyline(points, new PolylineOptions());
+
+        await poly.AddTo(PositionMap);
+    }
+}

@@ -1,5 +1,7 @@
 ﻿@page "/"
 @inject Services.StateContainer State
+@inject IJSRuntime JSRuntime
+
 <ConfigurationLoader @bind-Configuration="State.AppConfig" />
 
 <h1>Hello, world!</h1>
