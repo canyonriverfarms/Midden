@@ -60,7 +60,10 @@ namespace Caf.Midden.Components
                     }
 
                     var poly = new Polyline(latLngs, new PolylineOptions());
-                    await poly.AddTo(this.PositionMap);
+                    
+                    await poly.AddTo(PositionMap);
+
+                    StateHasChanged();
                 }
             }
             else
@@ -68,6 +71,7 @@ namespace Caf.Midden.Components
 
             }
         }
+
         protected override void OnInitialized()
         {
             PositionMap = new Map("testMap", new MapOptions
@@ -85,12 +89,12 @@ namespace Caf.Midden.Components
                 }
             );
 
-            
+            base.OnInitialized();
         }
 
-        protected override async Task OnAfterRenderAsync(bool firstRender)
+        protected override void OnAfterRender(bool firstRender)
         {
-            await LoadCoords();
+            Task.Run(async () => await LoadCoords());
         }
     }
 }

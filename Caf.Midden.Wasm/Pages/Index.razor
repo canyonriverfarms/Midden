@@ -8,7 +8,7 @@
 
 Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<GeoJsonMap GeoJsonString="@geometry" />
 
 @if (State != null)
 {
@@ -30,7 +30,7 @@ else
 <MetadataEditor @bind-Metadata="State.MetadataEdit"
                 AppConfig="State.AppConfig" />
 
-<GeoJsonMap GeoJsonString="@geometry" />
+
 
 @code{
     string geometry = "{\"type\":\"Polygon\",\"coordinates\":[[[-117.08001136779785,46.75109420013507],[-117.06121444702147,46.75109420013507],[-117.06121444702147,46.76082613370459],[-117.08001136779785,46.76082613370459],[-117.08001136779785,46.75109420013507]]]}";
