@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caf.Midden.Core.Tests", "Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caf.Midden.Wasm", "Caf.Midden.Wasm\Caf.Midden.Wasm.csproj", "{DB5E77D5-671C-4516-BC7E-580566A780B6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorLeaflet", "..\External\BlazorLeaflet\BlazorLeaflet\BlazorLeaflet\BlazorLeaflet.csproj", "{32F272F3-2ABB-4DFF-8D55-780295ABB499}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DB5E77D5-671C-4516-BC7E-580566A780B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB5E77D5-671C-4516-BC7E-580566A780B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB5E77D5-671C-4516-BC7E-580566A780B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F272F3-2ABB-4DFF-8D55-780295ABB499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F272F3-2ABB-4DFF-8D55-780295ABB499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F272F3-2ABB-4DFF-8D55-780295ABB499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F272F3-2ABB-4DFF-8D55-780295ABB499}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

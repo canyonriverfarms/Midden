@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\External\BlazorLeaflet\BlazorLeaflet\BlazorLeaflet\BlazorLeaflet.csproj" />
     <ProjectReference Include="..\Caf.Midden.Components\Caf.Midden.Components.csproj" />
     <ProjectReference Include="..\Caf.Midden.Core\Caf.Midden.Core.csproj" />
   </ItemGroup>

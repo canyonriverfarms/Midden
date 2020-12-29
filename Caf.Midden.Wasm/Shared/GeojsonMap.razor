@@ -1,47 +1,16 @@
-﻿@page "/"
-@inject Services.StateContainer State
-@inject IJSRuntime jsRuntime
-@using System.Drawing
+﻿@using BlazorLeaflet
 @using BlazorLeaflet.Models
-@using BlazorLeaflet
+@using System.Drawing
+@inject IJSRuntime jsRuntime
 
-<ConfigurationLoader @bind-Configuration="State.AppConfig" />
-
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-<GeojsonMap />
-
-@if (State != null)
-{
-    <p>LastUpdated: @State.LastUpdated</p>
-}
-else
-{
-    <p>None loaded</p>
-}
-
-<div class="alert alert-info">
-    <MetadataLoaderFileSystem @bind-Metadata="State.MetadataEdit" />
-    @if (State.MetadataEdit != null)
-    {
-        <p>Creation: @State.MetadataEdit.CreationDate</p>
-    }
-</div>
-
-<MetadataEditor @bind-Metadata="State.MetadataEdit"
-                AppConfig="State.AppConfig" />
-
-<div style="height: 500px; width: 500px;">
+<h3>GeojsonMap</h3>
+<div id="mapContainer" style="width: 300px; height: 300px;">
     <LeafletMap Map="_map" />
 </div>
 
-@code
-{
-
+@code {
     private Map _map;
-
+    private LatLng _startAt = new LatLng(47.5574007f, 16.3918687f);
     private Circle _circle;
 
     protected override void OnInitialized()
@@ -85,19 +54,4 @@ else
             _map.AddLayer(_circle);
         };
     }
-
-    private LatLng _startAt = new LatLng(47.5574007f, 16.3918687f);
-    public string CityName { get; set; }
-
-
-    private void ZoomMap()
-    {
-        _map.FitBounds(new PointF(45.943f, 24.967f), new PointF(46.943f, 25.967f), maxZoom: 5f);
-    }
-
-    private void PanToNY()
-    {
-        _map.PanTo(new PointF(40.713185f, -74.0072333f), animate: true, duration: 10f);
-    }
-
 }
