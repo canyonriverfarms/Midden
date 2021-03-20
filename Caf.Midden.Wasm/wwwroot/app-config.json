@@ -1,25 +1,17 @@
 {
   "schemaVersion": "v0.1",
   "isConfigured": true,
-  "organizationName": "Your Organization",
-  "toolName": "Metadata Tool",
+  "organizationName": "Canyon River Farms",
+  "toolName": "Dataset Catalog",
   "zones": [
-    "Raw",
-    "Work",
-    "Production"
+    "Bronze",
+    "Silver",
+    "Gold",
+    "External"
   ],
   "roles": [
-    "Author",
-    "Custodian",
-    "Distributor",
-    "Originator",
-    "Owner",
-    "Point of contact",
-    "Principal investigator",
-    "Processor",
-    "Publisher",
-    "Resource provider",
-    "User"
+    "Creator",
+    "Contributor"
   ],
   "processingLevels": [
     "Unknown",
@@ -29,12 +21,12 @@
   ],
   "geometries": [
     {
-      "name": "Washington State",
-      "geojson": "{\"type\":\"Polygon\",\"coordinates\":[[[-124.82666015624999,45.55252525134013],[-117.02636718749999,45.55252525134013],[-117.02636718749999,49.009050809382046],[-124.82666015624999,49.009050809382046],[-124.82666015624999,45.55252525134013]]]}"
+      "name": "Canyon Farm",
+      "geojson": "{\"type\":\"Point\",\"coordinates\":[-117.77865171432497,48.89674713820182]}"
     },
     {
-      "name": "Pacific Northwest",
-      "geojson": "{\"type\":\"Polygon\",\"coordinates\":[[[-124.78271484375,42.00032514831621],[-111.07177734375,42.00032514831621],[-111.07177734375,48.99463598353405],[-124.78271484375,48.99463598353405],[-124.78271484375,42.00032514831621]]]}"
+      "name": "River Farm",
+      "geojson": "{\"type\":\"Point\",\"coordinates\":[-117.79210567474364,48.91932679985484]}"
     }
   ],
   "tags": [
