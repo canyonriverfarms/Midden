@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-EEXicFmDyBgxQYHvbk7SBiANZluG5\/o\/PQFAxsE9NL4=",
+      "hash": "sha256-ZL3wAaNmT0QMLIMKL9+Gu2LwGqIBoW5Ryif3xUXOdCM=",
       "url": "app-config.json"
     },
     {
@@ -1493,5 +1493,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "aI88XIqm"
+  "version": "x6MdBX9E"
 };
