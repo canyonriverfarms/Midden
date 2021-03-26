@@ -5,7 +5,7 @@
       "url": "app-config.json"
     },
     {
-      "hash": "sha256-Bc72qYxpIeG5h89NxZhABGPPs7vr2qof1jJq3ya2MeY=",
+      "hash": "sha256-yKmgAKlg\/dUpYeF9jG7qiFMAoXbSFpOPCuzhgWjFUqk=",
       "url": "catalog.json"
     },
     {
@@ -1493,5 +1493,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "IrYGqF1z"
+  "version": "\/XQjKb6U"
 };
