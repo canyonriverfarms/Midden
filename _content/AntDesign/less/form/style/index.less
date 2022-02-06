@@ -89,9 +89,9 @@
 
     > label {
       position: relative;
-      // display: inline;
       display: inline-flex;
       align-items: center;
+      max-width: 100%;
       height: @form-item-label-height;
       color: @label-color;
       font-size: @form-item-label-font-size;
@@ -130,6 +130,7 @@
       // Optional mark
       .@{form-item-prefix-cls}-tooltip {
         color: @text-color-secondary;
+        cursor: help;
         writing-mode: horizontal-tb;
         margin-inline-start: @margin-xss;
       }
@@ -191,21 +192,20 @@
 
   .@{ant-prefix}-input-textarea-show-count {
     &::after {
-      position: absolute;
-      bottom: -22px;
-      width: 100%;
+      margin-bottom: -22px;
     }
   }
 }
 
 .show-help-motion(@className, @keyframeName, @duration: @animation-duration-slow) {
-  .make-motion(@className, @keyframeName, @duration);
-  .@{className}-enter,
-  .@{className}-appear {
+  @name: ~'@{ant-prefix}-@{className}';
+  .make-motion(@name, @keyframeName, @duration);
+  .@{name}-enter,
+  .@{name}-appear {
     opacity: 0;
     animation-timing-function: @ease-in-out;
   }
-  .@{className}-leave {
+  .@{name}-leave {
     animation-timing-function: @ease-in-out;
   }
 }
@@ -235,27 +235,33 @@
 @keyframes diffZoomIn1 {
   0% {
     transform: scale(0);
+    opacity: 0;
   }
   100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 
 @keyframes diffZoomIn2 {
   0% {
     transform: scale(0);
+    opacity: 0;
   }
   100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 
 @keyframes diffZoomIn3 {
   0% {
     transform: scale(0);
+    opacity: 0;
   }
   100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 
