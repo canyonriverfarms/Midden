@@ -13,7 +13,7 @@
       "url": "js\/markdownEditor.js"
     },
     {
-      "hash": "sha256-oQhV4unNLE0q1MsxDpHga2La6eu3QboNN1eIz6z+2MQ=",
+      "hash": "sha256-gk\/VU1LEvbyUxLyY862t1X\/jM74GXrGvW+Rhay9LmK4=",
       "url": "app-config.json"
     },
     {
@@ -21,7 +21,7 @@
       "url": "apple-icon.png"
     },
     {
-      "hash": "sha256-e22aMLIClS3n0MyDcLk9xfYsCO1xFYJnvn72utvr72s=",
+      "hash": "sha256-yKmgAKlg\/dUpYeF9jG7qiFMAoXbSFpOPCuzhgWjFUqk=",
       "url": "catalog.json"
     },
     {
@@ -149,7 +149,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Qonk1kw2+8boTaHKeXa33I8bOc7jBzd3ptCmv0kSUbk=",
+      "hash": "sha256-BPavjp5Mmq1ROWvzB+cbG5k5oe0Q9UP7sqyT9TkzNIQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -161,11 +161,11 @@
       "url": "_framework\/AntDesign.dll"
     },
     {
-      "hash": "sha256-F\/6G1dM\/NEBHrMnAwctLAWoJJhQsUmVhRzU\/LdEJlJo=",
+      "hash": "sha256-nVNSWX\/bIr95s6ugW43sjh+i5LMBZo+7+msq65MS6I4=",
       "url": "_framework\/Caf.Midden.Core.dll"
     },
     {
-      "hash": "sha256-dfCOUc7tTce4LAJZTvYHX1\/zbWuKz4UoNQ+KSMnS1NI=",
+      "hash": "sha256-Rel617k643\/\/haxWnorBDkOxXN1ZVlxV3dW\/iZu32yo=",
       "url": "_framework\/Caf.Midden.Wasm.dll"
     },
     {
@@ -505,5 +505,5 @@
       "url": "_content\/PSC.Blazor.Components.MarkdownEditor\/PSC.Blazor.Components.MarkdownEditor.bundle.scp.css"
     }
   ],
-  "version": "aIaMvv79"
+  "version": "O72k7W4n"
 };
