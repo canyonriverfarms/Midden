@@ -1,7 +1,7 @@
 {
   "entryAssembly": "Caf.Midden.Wasm",
   "resources": {
-    "hash": "sha256-XKBPd4eQW4C+B4VDcLjVdsC5cJdImw4dMS9OMDqGLx8=",
+    "hash": "sha256-eqeQ81bUKfN+FVyAykoAqdf6TXBoSZGcd0mRt2nmPjs=",
     "runtime": {
       "dotnet.6.0.25.0ibdzzkyii.js": "sha256-1jUGCCSGH9JWhkqbHdQk8JBjBI8K/VC63En5zlypVps=",
       "dotnet.timezones.blat": "sha256-KsGUR9nqtXb3Hy6IrNlnc1HoSS+AFlsXTX9rq4oChtA=",
@@ -13,8 +13,8 @@
     "assembly": {
       "AntDesign.Charts.dll": "sha256-n81c2BJO7iDckPFvRtVVnvYbPieOdzZDCrircgudriM=",
       "AntDesign.dll": "sha256-FNFohsDQHNEYF+QPpauYdOXaJrXoU0BgSFGy0qgZUGk=",
-      "Caf.Midden.Core.dll": "sha256-nVNSWX/bIr95s6ugW43sjh+i5LMBZo+7+msq65MS6I4=",
-      "Caf.Midden.Wasm.dll": "sha256-Rel617k643//haxWnorBDkOxXN1ZVlxV3dW/iZu32yo=",
+      "Caf.Midden.Core.dll": "sha256-dZ+52hxyiHVmYw0hneiHsJfRGmVNl9aziSK4QwWg4+w=",
+      "Caf.Midden.Wasm.dll": "sha256-kj2YSCh0ilZzFJ/6rXUCEcgz/OQtTTdoFtVhYB+tHwA=",
       "CsvHelper.dll": "sha256-C4tsA83oB+MBNtP8l59LBwoVfNHIUlOQRsJXdSktBuk=",
       "Markdig.dll": "sha256-D/OBA4zo0INLL9/iVDsWd6RQdpY0+BwlL7cefGhZ8Ac=",
       "Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll": "sha256-VGaB03HIjFg4jeK7BomIFzlhhY3vW5N+jWuRqZkbJsY=",

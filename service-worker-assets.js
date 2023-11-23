@@ -21,7 +21,7 @@
       "url": "apple-icon.png"
     },
     {
-      "hash": "sha256-yKmgAKlg\/dUpYeF9jG7qiFMAoXbSFpOPCuzhgWjFUqk=",
+      "hash": "sha256-0YLkAmCkD46riQ8iWMLsAX+CBMHIgxWw3LJLnQXyCR0=",
       "url": "catalog.json"
     },
     {
@@ -149,7 +149,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-BPavjp5Mmq1ROWvzB+cbG5k5oe0Q9UP7sqyT9TkzNIQ=",
+      "hash": "sha256-9dL14BV0DSOlP6lw0ZMfizfoP7P3FINRC9s7sQHPhB4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -161,11 +161,11 @@
       "url": "_framework\/AntDesign.dll"
     },
     {
-      "hash": "sha256-nVNSWX\/bIr95s6ugW43sjh+i5LMBZo+7+msq65MS6I4=",
+      "hash": "sha256-dZ+52hxyiHVmYw0hneiHsJfRGmVNl9aziSK4QwWg4+w=",
       "url": "_framework\/Caf.Midden.Core.dll"
     },
     {
-      "hash": "sha256-Rel617k643\/\/haxWnorBDkOxXN1ZVlxV3dW\/iZu32yo=",
+      "hash": "sha256-kj2YSCh0ilZzFJ\/6rXUCEcgz\/OQtTTdoFtVhYB+tHwA=",
       "url": "_framework\/Caf.Midden.Wasm.dll"
     },
     {
@@ -505,5 +505,5 @@
       "url": "_content\/PSC.Blazor.Components.MarkdownEditor\/PSC.Blazor.Components.MarkdownEditor.bundle.scp.css"
     }
   ],
-  "version": "O72k7W4n"
+  "version": "puf4ItH6"
 };
