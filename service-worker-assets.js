@@ -105,7 +105,7 @@
       "url": "img\/insights.jpg"
     },
     {
-      "hash": "sha256-6ctWuzWoQEgsHtr5arnySLOiP01NXtnpl7i8lRPN4dM=",
+      "hash": "sha256-X\/u47IvuEf8sucTIp74YqdnCUz6mjSn9tO3BmUqgdOY=",
       "url": "index.html"
     },
     {
@@ -149,7 +149,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-WAmRAyuHzP8lj+Mb+q9E\/y5WAlheWMmWm+cj4IGdh+4=",
+      "hash": "sha256-TKSyadD7D75bMho8WQamvrH3LgnDLOMhz6bFbHhI\/h4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -161,11 +161,11 @@
       "url": "_framework\/AntDesign.dll"
     },
     {
-      "hash": "sha256-+H2sraZ5+I4Unl36zUv7Gvr8pNn6Nh\/Odo0jxKzJrY8=",
+      "hash": "sha256-euwH0k5ui7X1OtHtEJdof8SugLK4V\/tcN8sn++DrY4A=",
       "url": "_framework\/Caf.Midden.Core.dll"
     },
     {
-      "hash": "sha256-cJFdR5lr0RUaY40bEwvbJuTPxH0\/JScKPPfq8mkdMjs=",
+      "hash": "sha256-j25ZyqfqwLtIBfx7fngY4Pfo\/JpT6wRUdkiieIaBYCM=",
       "url": "_framework\/Caf.Midden.Wasm.dll"
     },
     {
@@ -505,5 +505,5 @@
       "url": "_content\/PSC.Blazor.Components.MarkdownEditor\/PSC.Blazor.Components.MarkdownEditor.bundle.scp.css"
     }
   ],
-  "version": "QHJHuxpY"
+  "version": "\/2lpfH9y"
 };
