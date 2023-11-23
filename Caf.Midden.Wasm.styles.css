@@ -1,3 +1,13 @@
+@import '_content/PSC.Blazor.Components.MarkdownEditor/PSC.Blazor.Components.MarkdownEditor.bundle.scp.css';
+
+/* /Pages/Index.razor.rz.scp.css */
+[b-kkzjz0pqz1] .ant-list-item {
+    color: unset !important;
+}
+
+[b-kkzjz0pqz1] .ant-typography {
+    color: unset !important;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 /*.page {
     position: relative;
