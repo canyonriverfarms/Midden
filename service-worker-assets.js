@@ -13,7 +13,7 @@
       "url": "js\/markdownEditor.js"
     },
     {
-      "hash": "sha256-gk\/VU1LEvbyUxLyY862t1X\/jM74GXrGvW+Rhay9LmK4=",
+      "hash": "sha256-wG+JTnvXLUKMYUszdyPPMfLySVXuP4IZQcpg9fCvgvQ=",
       "url": "app-config.json"
     },
     {
@@ -149,7 +149,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-9dL14BV0DSOlP6lw0ZMfizfoP7P3FINRC9s7sQHPhB4=",
+      "hash": "sha256-WAmRAyuHzP8lj+Mb+q9E\/y5WAlheWMmWm+cj4IGdh+4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -161,11 +161,11 @@
       "url": "_framework\/AntDesign.dll"
     },
     {
-      "hash": "sha256-dZ+52hxyiHVmYw0hneiHsJfRGmVNl9aziSK4QwWg4+w=",
+      "hash": "sha256-+H2sraZ5+I4Unl36zUv7Gvr8pNn6Nh\/Odo0jxKzJrY8=",
       "url": "_framework\/Caf.Midden.Core.dll"
     },
     {
-      "hash": "sha256-kj2YSCh0ilZzFJ\/6rXUCEcgz\/OQtTTdoFtVhYB+tHwA=",
+      "hash": "sha256-cJFdR5lr0RUaY40bEwvbJuTPxH0\/JScKPPfq8mkdMjs=",
       "url": "_framework\/Caf.Midden.Wasm.dll"
     },
     {
@@ -505,5 +505,5 @@
       "url": "_content\/PSC.Blazor.Components.MarkdownEditor\/PSC.Blazor.Components.MarkdownEditor.bundle.scp.css"
     }
   ],
-  "version": "puf4ItH6"
+  "version": "QHJHuxpY"
 };
