@@ -6,16 +6,26 @@
   "zones": [
     "Bronze",
     "Silver",
-    "Gold"
+    "Gold",
+    "External"
   ],
   "roles": [
-    "Creator"
+    "Creator",
+    "Custodian"
+  ],
+  "projectStatuses": [
+    "Complete",
+    "Incomplete"
   ],
   "processingLevels": [
     "Unknown",
     "Measured",
     "Calculated",
     "Modeled"
+  ],
+  "variableTypes": [
+    "Dimension",
+    "Metric"
   ],
   "geometries": [
     {
@@ -46,7 +56,65 @@
     "[ISO]society",
     "[ISO]structure",
     "[ISO]transportation",
-    "[ISO]utilitiesCommunication"
+    "[ISO]utilitiesCommunication",
+    "[EPA]Agriculture",
+    "[EPA]Air",
+    "[EPA]Biology",
+    "[EPA]Boundaries and Base Data",
+    "[EPA]Chemicals",
+    "[EPA]Cleanup",
+    "[EPA]Climate",
+    "[EPA]Climate Change",
+    "[EPA]Compliance",
+    "[EPA]Conservation",
+    "[EPA]Contaminant",
+    "[EPA]Disaster",
+    "[EPA]Drinking Water",
+    "[EPA]Ecological",
+    "[EPA]Ecology",
+    "[EPA]Ecosystem",
+    "[EPA]Emergency",
+    "[EPA]Emergency Response",
+    "[EPA]Energy",
+    "[EPA]Enforcement",
+    "[EPA]Environment",
+    "[EPA]Environmental Justice",
+    "[EPA]Estuary",
+    "[EPA]Exposure",
+    "[EPA]Facilities",
+    "[EPA]Grants",
+    "[EPA]Ground Water",
+    "[EPA]Hazards",
+    "[EPA]Health",
+    "[EPA]Human",
+    "[EPA]Impact",
+    "[EPA]Indicator",
+    "[EPA]Indoor Air",
+    "[EPA]Inspections",
+    "[EPA]Land",
+    "[EPA]Management",
+    "[EPA]Marine",
+    "[EPA]Modeling",
+    "[EPA]Monitoring",
+    "[EPA]Natural Resources",
+    "[EPA]Permits",
+    "[EPA]Pesticides",
+    "[EPA]Quality",
+    "[EPA]Radiation",
+    "[EPA]Recreation",
+    "[EPA]Regulated Facilities",
+    "[EPA]Regulatory",
+    "[EPA]Remediation",
+    "[EPA]Response",
+    "[EPA]Risk",
+    "[EPA]Sites",
+    "[EPA]Spills",
+    "[EPA]Surface Water",
+    "[EPA]Sustainability",
+    "[EPA]Toxics",
+    "[EPA]Transportation",
+    "[EPA]Waste",
+    "[EPA]Water"
   ],
   "datasetStructures": [
     "Single",
